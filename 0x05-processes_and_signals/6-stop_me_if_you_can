@@ -1,4 +1,4 @@
 #!/bin/usr/env bash
 #stop the program without kill command
-exit 4-to_infinity_and_beyond
+exit 
 
