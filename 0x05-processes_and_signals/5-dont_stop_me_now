@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Stop the task 4 program
-kill
+kill -l
 
