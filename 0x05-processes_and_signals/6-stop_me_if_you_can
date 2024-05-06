@@ -1,4 +1,4 @@
 #!/bin/usr/env bash
 #stop the program without kill command
-exit 
+pkill -1s "bash ./4-to_infinity_and_beyond" -f
 

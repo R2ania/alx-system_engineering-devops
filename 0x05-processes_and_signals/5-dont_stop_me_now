@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 # Stop the task 4 program
-kill -l
+id=$(pgrep "bash ./4-to_infiinity_and_beyond" -f)
+if [ -n "id" ]
+then
+kill -1s "$id"
+fi
 
