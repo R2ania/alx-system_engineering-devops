@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#Displays numbers from 1 to 100 in list format and
+#Display "fizzbuzz" when number is mlti of 3,5
+#Display "fizz" when numbr is mlti of 3
+#Display "buzz" when number is mlti of 5
+for num in (1..100)
+do
+if (( num % 3 == 0 && num % 5 == 0))
+then
+echo "FizzBuzz"
+elif ((num % 3 == 0 ))
+then
+echo "Fizz"
+elif ((num % 5 == 0))
+then
+echo "Buzz"
+else
+echo "$num"
+fi
+done
+
