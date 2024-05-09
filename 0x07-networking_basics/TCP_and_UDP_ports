@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo $$
+echo "the file name is " $0
+echo $@
+
